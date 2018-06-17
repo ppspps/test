@@ -10,8 +10,10 @@ public class Shell{
     try{
       JSch jsch=new JSch();
 
+
       //jsch.setKnownHosts("/home/foo/.ssh/known_hosts");////
       String test="q3";
+      String test="q1";
       String host=null;
       if(arg.length>0){
         host=arg[0];
