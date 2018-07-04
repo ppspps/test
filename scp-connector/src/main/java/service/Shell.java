@@ -3,12 +3,6 @@ package service;
 import com.jcraft.jsch.*;
 import java.awt.*;
 import javax.swing.*;
-import javax.swing.*;
-import javax.swing.*;
-import javax.swing.*;
-import javax.swing.*;
-import javax.swing.*;
-import javax.swing.*;
 
 public class Shell{
   public static void main(String[] arg){
