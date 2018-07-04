@@ -1,14 +1,21 @@
 package service;
 
-import com.jcraft.jsch.*;
-import java.awt.*;
-import javax.swing.*;
+import javax.swing.JOptionPane;
+
+import com.jcraft.jsch.Channel;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.Session;
+import com.jcraft.jsch.UIKeyboardInteractive;
+import com.jcraft.jsch.UserInfo;
+
+import q4.Q4Class;
 
 public class Shell{
   public static void main(String[] arg){
     
     try{
       JSch jsch=new JSch();
+      Q4Class q4 = new Q4Class();
 
 
       //jsch.setKnownHosts("/home/foo/.ssh/known_hosts");////
